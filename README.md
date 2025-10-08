@@ -68,5 +68,5 @@ This project simulates a real-world backend application focusing on **database m
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/herbal-remedies-api.git
+git clone https://github.com/meklitm7/herbal-remedies-api.git
 cd herbal-remedies-api
