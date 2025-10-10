@@ -12,6 +12,8 @@ class Herb(models.Model):
     uses = models.TextField()
     precautions = models.TextField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='herbs')
+    class Meta:
+        unique_together = ('name', 'uses', 'created_by') 
 
     def __str__(self):
         return self.name
