@@ -47,11 +47,7 @@ class HerbDetailView(generics.RetrieveUpdateDestroyAPIView):
     def get_serializer_context(self):
         return {'request': self.request}
 
-    def update(self, request, *args, **kwargs):
-        if request.method == 'PATCH':
-            return super().partial_update(request, *args, **kwargs)
-        return super().update(request, *args, **kwargs)
-    
+     
 class CollectionViewSet(viewsets.ModelViewSet):
     queryset = Collection.objects.all()
     serializer_class = CollectionSerializer
