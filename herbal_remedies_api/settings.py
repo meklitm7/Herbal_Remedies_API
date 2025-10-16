@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-w0*tjc!&#yu7=(*&+4(mpvvk5)&ec6il0-fkqh!_ezcby^dp5=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['meklit.pythonanywhere.com']
+ALLOWED_HOSTS = ['meklit7.pythonanywhere.com']
 
 
 # Application definition
