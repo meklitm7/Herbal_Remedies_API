@@ -29,9 +29,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-w0*tjc!&#yu7=(*&+4(mpvvk5)&ec6il0-fkqh!_ezcby^dp5='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['meklit7.pythonanywhere.com']
+ALLOWED_HOSTS = [ ]
 
 
 # Application definition
@@ -139,7 +139,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+ 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
